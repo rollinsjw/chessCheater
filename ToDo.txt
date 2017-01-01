@@ -1,0 +1,3 @@
+ToDo:
+
+Switch the chessPiece identifiers from character to integer in the chessPiece class
