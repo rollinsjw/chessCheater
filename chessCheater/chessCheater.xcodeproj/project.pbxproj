@@ -14,6 +14,7 @@
 		C885B1581E2051AE000B7F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C885B1561E2051AE000B7F26 /* LaunchScreen.storyboard */; };
 		C885B1631E2051AE000B7F26 /* chessCheaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885B1621E2051AE000B7F26 /* chessCheaterTests.swift */; };
 		C885B16E1E2051AE000B7F26 /* chessCheaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885B16D1E2051AE000B7F26 /* chessCheaterUITests.swift */; };
+		C885B17C1E205255000B7F26 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885B17B1E205255000B7F26 /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C885B1691E2051AE000B7F26 /* chessCheaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chessCheaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C885B16D1E2051AE000B7F26 /* chessCheaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chessCheaterUITests.swift; sourceTree = "<group>"; };
 		C885B16F1E2051AE000B7F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C885B17B1E205255000B7F26 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C885B14D1E2051AE000B7F26 /* AppDelegate.swift */,
 				C885B14F1E2051AE000B7F26 /* ViewController.swift */,
+				C885B17B1E205255000B7F26 /* Node.swift */,
 				C885B1511E2051AE000B7F26 /* Main.storyboard */,
 				C885B1541E2051AE000B7F26 /* Assets.xcassets */,
 				C885B1561E2051AE000B7F26 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C885B17C1E205255000B7F26 /* Node.swift in Sources */,
 				C885B1501E2051AE000B7F26 /* ViewController.swift in Sources */,
 				C885B14E1E2051AE000B7F26 /* AppDelegate.swift in Sources */,
 			);
